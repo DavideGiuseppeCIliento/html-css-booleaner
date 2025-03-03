@@ -1,6 +1,7 @@
 /* GENERALI */
 body {
   margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -37,8 +38,13 @@ figure {
 }
 
 figcaption {
-  padding: 0 6px 0 6px;
+  padding: 0 10px 0 10px;
   font-size: 14px;
+}
+
+ul {
+  padding: 15px 10px 15px 10px;
+  margin: 0;
 }
 
 /* STILE HEADER */
@@ -49,7 +55,7 @@ figcaption {
   background-image: url("../immagini/pattern.png");
   background-repeat: repeat;
   background-size: 35%;
-  padding: 70px 6px 15px 6px;
+  padding: 70px 10px 15px 10px;
 }
 
 .logo {
@@ -59,7 +65,7 @@ figcaption {
 /* SEZIONE DEL TITOLO */
 
 .sezionetitolo {
-  padding: 15px 6px 15px 6px;
+  padding: 15px 10px 15px 10px;
 }
 
 .stilelink {
@@ -73,12 +79,12 @@ figcaption {
 .sezioneimmaginiaffiancate {
   display: flex;
   gap: 10px;
-  padding: 0 6px 0 6px;
+  padding: 0 10px 0 10px;
   margin: 0;
 }
 
 /* SEZIONE PARAGRAFO */
 
 .sezioneparagrafo {
-  padding: 15px 6px 15px 6px;
+  margin: 15px 10px 15px 10px;
 }
