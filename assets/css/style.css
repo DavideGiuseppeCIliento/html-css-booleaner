@@ -116,3 +116,24 @@ th {
 .rigaceleste {
   background-color: #b1e6f2;
 }
+
+/* SEZIONE IMMAGINI CON SCRITTA */
+.immaginealta {
+  background-image: url("../immagini/monitor.jpg");
+  background-size: cover;
+  width: 40%;
+  height: 400px;
+  color: white;
+  padding: 15px 10px 15px 10px;
+  margin: 15px 10px 15px 10px;
+}
+
+.immaginebassa {
+  background-image: url("../immagini/graph.jpg");
+  background-size: cover;
+  width: 40%;
+  height: 400px;
+  color: white;
+  padding: 15px 10px 15px 10px;
+  margin: 15px 10px 15px 10px;
+}
