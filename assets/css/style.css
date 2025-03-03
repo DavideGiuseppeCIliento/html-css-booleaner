@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+.stileheader {
+  width: 100%;
+  background-color: cadetblue;
+  background-image: url("../immagini/pattern.png");
+  background-repeat: repeat;
+  padding: 80px 4px 20px 4px;
+}
+
+.logo {
+  width: 250px;
+}
