@@ -47,6 +47,31 @@ ul {
   margin: 0;
 }
 
+table {
+  width: 100%;
+}
+
+thead {
+  background-color: #1fa9e2;
+  color: white;
+  text-align: left;
+}
+
+tr {
+}
+
+td {
+  padding: 5px 10px 5px 10px;
+  margin: 0;
+  border: 0;
+}
+
+th {
+  padding: 5px 10px 5px 10px;
+  margin: 0;
+  border: 0;
+}
+
 /* STILE HEADER */
 
 .stileheader {
@@ -87,4 +112,10 @@ ul {
 
 .sezioneparagrafo {
   margin: 15px 10px 15px 10px;
+}
+
+/* SEZIONE TABELLA */
+
+.rigaceleste {
+  background-color: #b1e6f2;
 }
