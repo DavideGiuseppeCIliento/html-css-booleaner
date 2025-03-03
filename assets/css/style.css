@@ -1,15 +1,84 @@
+/* GENERALI */
 body {
   margin: 0;
 }
 
+h1 {
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+address {
+  color: slategray;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+figcaption {
+  padding: 0 6px 0 6px;
+  font-size: 14px;
+}
+
+/* STILE HEADER */
+
 .stileheader {
   width: 100%;
-  background-color: cadetblue;
+  background-color: #4da1ff;
   background-image: url("../immagini/pattern.png");
   background-repeat: repeat;
-  padding: 80px 4px 20px 4px;
+  background-size: 35%;
+  padding: 70px 6px 15px 6px;
 }
 
 .logo {
-  width: 250px;
+  width: 200px;
+}
+
+/* SEZIONE DEL TITOLO */
+
+.sezionetitolo {
+  padding: 15px 6px 15px 6px;
+}
+
+.stilelink {
+  color: #59a8cb;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* SEZIONE IMMAGINI */
+
+.sezioneimmaginiaffiancate {
+  display: flex;
+  gap: 10px;
+  padding: 0 6px 0 6px;
+  margin: 0;
+}
+
+/* SEZIONE PARAGRAFO */
+
+.sezioneparagrafo {
+  padding: 15px 6px 15px 6px;
 }
